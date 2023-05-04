@@ -1,0 +1,6 @@
+f = open("high.score", "a+")
+initial = input("INITIALS > ")
+f.write(f"{initial}\n")
+score = input("SCORE > ")
+f.write(f"{score}\n")
+f.close()
